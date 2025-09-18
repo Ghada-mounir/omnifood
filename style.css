@@ -1,0 +1,24 @@
+ .cl{
+    background-color: #fdf2e9;
+ }
+ .offcanvas-fullscreen {
+      width: 100% !important;
+      height: 100% !important;
+      background: rgba(0, 0, 0, 0.85);
+      color: rgb(145, 133, 133);
+      transform: translateY(-100%);
+      transition: transform 0.4s ease-in-out;
+    }
+    .offcanvas-fullscreen.show {
+      transform: translateY(0);
+    }
+    .offcanvas-fullscreen .nav-link {
+      font-size: 2rem;
+      color: rgb(180, 158, 158);
+      text-align: center;
+      margin: 15px 0;
+      transition: color 0.3s;
+    }
+    .offcanvas-fullscreen .nav-link:hover {
+      color: #f5811b;
+    }
